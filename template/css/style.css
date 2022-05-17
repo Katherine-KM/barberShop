@@ -1,6 +1,8 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding:0; 
 }
 
 /* Clear fix hack */
@@ -20,6 +22,10 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+html {
+  font-size: 62.5%;
+}
+
 
 body {
 
@@ -29,9 +35,39 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+/* Nav Bar */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  width: 100%; 
+  box-shadow: 0 0 10px grey;
+  padding: 2rem 15%; 
 }
+
+.nav-list{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0; 
+}
+
+.nav-item{
+  display: inline-block;
+  list-style: none;
+  margin-right: 2rem; 
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Hero Content */
+
+
 
 footer {
 
