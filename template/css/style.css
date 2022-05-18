@@ -292,10 +292,28 @@ text-align: center;
 /* Section 5 / Discount Section */
 .section5 {
   display: flex;
+  width:100%;
+  justify-content: center;
 }
-.section5 img {
-  height:fit-content;
-  margin: 0 auto; 
+
+.section5 img{
+ max-width: 1200px;
+ -webkit-filter: brightness(100%);
+ box-shadow: 0 0 10px black;
+ border-radius: 5%;
+}
+
+.section5 a {
+  display: block;
+}
+
+.section5 a:hover {
+  -webkit-filter: brightness(80%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 footer {
