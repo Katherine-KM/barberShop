@@ -27,11 +27,11 @@ html {
 }
 
 header {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 .hero-main-content p {
@@ -39,7 +39,7 @@ h1 {
 }
 
 body {
-
+    font-family: "Roboto", "Times New Roman", Times, serif;
 }
 
 
@@ -110,7 +110,7 @@ header {
 
 .hero-content h1 {
   line-height: 1.5;
-  font-weight:100;
+  font-weight:700;
   margin: 0;
   padding: 10rem 0 2rem 0;
 }
@@ -124,9 +124,7 @@ header {
   display: inline-block;
   color: black;
   font-size: 1.8rem;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: -0.5px;
+  font-weight: 700;
   text-decoration: none;
   background-color: darkorange;
   margin-top: 5rem;
@@ -144,6 +142,7 @@ header {
 .first-section {
   max-width: 350px;
   margin-left: 18%;
+  font-weight: 300;
 }
 
 
@@ -192,6 +191,74 @@ header {
 }
 
 /* Second Content Section */
+
+.second-section {
+  display: flex; 
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 10rem auto;
+}
+
+.card{
+  max-width: 300px;
+  text-align: center;
+}
+
+.desc {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.card p + p {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.card img {
+  margin-bottom: 2rem;
+}
+
+/* Section 3*/
+.section3{
+  background-color: rgb(20, 20, 20);
+}
+
+.about-us-img {
+  border: 2px solid black;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.about-us {
+color:white;
+display: flex;
+max-width: 1200px;
+margin: 0 auto; 
+justify-content: space-between;
+text-align: center;
+}
+
+.about-us h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 3.5rem 0;
+}
+
+.about-us p {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.about-us div {
+  max-width: 1200px;
+  padding-top: 10rem;
+  color: white;
+}
+
+.about-us-content.text {
+  max-width: 500px;
+  margin-top: 9.5rem;
+}
 
 footer {
 
