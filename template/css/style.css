@@ -228,6 +228,85 @@ header {
   margin-bottom: 2rem;
 }
 
+/* Services */
+
+#services {
+  color: white;
+  background-color: #141414;
+  height: fit-content; 
+  line-height: 2;
+}
+
+.bckgr-img {
+  background-image: url("/template/imgs/servicesmaybe.png");
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
+  max-width: 1200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto
+}
+
+
+.services-content1 {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.services-content1 h2 {
+  font-size: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem; 
+}
+
+.services-content1 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.services-content2 {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto; 
+  justify-content: space-around;
+}
+
+.services-content2 div {
+  border: 2px solid #bb9561; 
+  width: 30%;
+  height: fit-content; 
+  border-radius: 5%; 
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.beard {
+  padding: 1.5rem 0; 
+}
+
+.main-p {
+  font-size: 1.8rem;
+  padding: 0 4rem; 
+  text-align: left;
+}
+
+.sec-p {
+  font-size: 1.3rem;
+  padding: 0 0 1rem; 
+  margin-left: 4rem; 
+  margin-right: 4rem; 
+  margin-bottom: 2rem;
+  text-align: left;
+  border-bottom: 1px solid #bb9561;
+}
+
+.price {
+  color:#bb9561;
+}
+
 /* Section 3*/
 #section3{
   background-color: #141414;
