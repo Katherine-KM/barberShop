@@ -95,6 +95,12 @@ header {
   border-radius: 5%;
 }
 
+.btn:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+}
+
 .main-btn {
   background-color: darkorange;
   box-shadow: 0 0 10px rgb(0, 0, 0);
@@ -105,11 +111,6 @@ header {
   background-color: black;
   margin: 0 0 2rem 0;
   box-shadow: 0 0 10px 0 grey;
-}
-
-.sec-btn:hover {
-  background-color: white;
-  color: black;
 }
 
 .main-sec-btn {
