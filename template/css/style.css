@@ -385,6 +385,7 @@ text-align: center;
 }
 
 #section5 img{
+  margin-top: 10rem; 
  max-width: 1200px;
  -webkit-filter: brightness(100%);
  box-shadow: 0 0 10px black;
@@ -477,7 +478,18 @@ text-align: center;
 
 
 footer {
+  background-color: #141414;
+  color: white;
+  height: 5rem;
+  width:100%;
+  font-size: 1.5rem;
+  display: flex;
+}
 
+.footer-content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1.5rem 0; 
 }
 
 /******************************************
