@@ -138,18 +138,18 @@ header {
 }
 
 /* Hero Main Content */ 
-.hero-content {
+#hero-content {
  max-width: 1200px;
  margin: 0 auto;
  color:white;  
  text-align: left;
 }
 
-.hero-content h1 {
+#hero-content h1 {
   line-height: 1.5;
   font-weight:700;
   margin: 0;
-  padding: 15rem 0 2rem 0;
+  padding: 18rem 0 2rem 0;
 }
 
 .hero-main-content {
@@ -158,7 +158,7 @@ header {
 }
 
 /* Hero Sub Content/Card */
-.first-section {
+#section1{
   max-width: 350px;
   margin-left: 18%;
   font-weight: 300;
@@ -200,7 +200,7 @@ header {
 
 /* Second Content Section */
 
-.second-section {
+#section2 {
   display: flex; 
   justify-content: space-between;
   max-width: 1200px;
@@ -228,7 +228,7 @@ header {
 }
 
 /* Section 3*/
-.section3{
+#section3{
   background-color: #141414;
 }
 
@@ -298,24 +298,24 @@ text-align: center;
 }
 
 /* Section 5 / Discount Section */
-.section5 {
+#section5 {
   display: flex;
   width:100%;
   justify-content: center;
 }
 
-.section5 img{
+#section5 img{
  max-width: 1200px;
  -webkit-filter: brightness(100%);
  box-shadow: 0 0 10px black;
  border-radius: 5%;
 }
 
-.section5 a {
+#section5 a {
   display: block;
 }
 
-.section5 a:hover {
+#section5 a:hover {
   -webkit-filter: brightness(80%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 0.5s ease;
@@ -358,7 +358,7 @@ text-align: center;
   width: 100%; 
 }
 
-.section6 img {
+#section6 img {
   max-width: 100%;
   margin-bottom: 2.5rem;
 }
