@@ -91,8 +91,8 @@ header {
   font-size: 1.8rem;
   font-weight: 700;
   text-decoration: none;
-  padding: 1rem;
   border-radius: 5%;
+  padding: 1.5rem;
 }
 
 .btn:hover {
@@ -103,18 +103,22 @@ header {
 
 .main-btn {
   background-color: darkorange;
-  box-shadow: 0 0 10px rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(65, 64, 64);
 }
 
 .sec-btn {
   color: white; 
   background-color: black;
-  margin: 0 0 2rem 0;
   box-shadow: 0 0 10px 0 grey;
 }
 
 .main-sec-btn {
-  margin-top: 5rem;
+  margin-top: 4rem;
+  padding: 3rem; 
+}
+
+.hero-btn {
+  margin-top: 1rem; 
 }
 
 
@@ -125,80 +129,87 @@ header {
  max-height: 10rem;
 }
 
-/* Hero Background Img */
-.hero-img{
-  background-image: linear-gradient(100deg, rgba(0,0,0,0.9), rgba(0,0,0,0.15)), url("/template/imgs/herocopy.jpg"); 
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center center;
-  background-attachment: fixed;
-  width: 100%;
-  height: 90vh; 
-  border-bottom-left-radius: 80%;
-  border-bottom-right-radius: 10%;
-  border-bottom:solid 5px black;
-  box-shadow: 0 15px 15px grey;
-}
-
 /* Hero Main Content */ 
-#hero-content {
- max-width: 1200px;
- margin: 0 auto;
- color:white;  
- text-align: left;
+.container1 {
+  max-width: 1500px;
+  margin: 10rem auto;  
+  display: flex;
+  justify-content: space-between;
 }
 
-#hero-content h1 {
-  line-height: 1.5;
+ .hero {
+ width:48%; 
+ padding: 5rem; 
+ color:white;  
+ text-align: center;
+}
+
+h1 {
+  line-height: 1.4;
   font-weight:700;
   margin: 0;
-  padding: 18rem 0 2rem 0;
+  padding: 8rem 5rem 3rem 5rem;
 }
 
-.hero-main-content {
-  height: fit-content;
-  max-width: 500px;
+.hero p {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 /* Hero Sub Content/Card */
-#section1{
-  max-width: 350px;
-  margin-left: 18%;
-  font-weight: 300;
+.hero-sub-container {
+  width: 48%; 
 }
-
 
 .hero-sub-content {
   height: fit-content;
-  padding: 3rem;
-  margin: 3rem 0;
+  padding: 5rem 3rem; 
   background-color: black;
   color:white;
   text-align: center; 
+  margin: 10rem; 
   box-shadow: 0 0 15px 0 grey;
+  max-width: 50rem;
+  line-height: 1;
+  border-radius: 5%;
 }
-
-.hero-sub-content span {
-  display: inline-block;
-}
-
-.span-sub-content1 {
-  font-weight:700;
-  font-size: 3rem; 
-  padding-bottom: 2rem;
-}
-
-.span-sub-content2 {
-  display: inline-block;
-  font-size: 2rem;
-  padding-left: 1rem;
-  padding-bottom: 3.5rem;
-}
+  #discount {
+    font-weight:700;
+    font-size: 3.5rem;
+    color: orange;
+  }
 
 .hero-sub-content p {
+  font-weight:500;
   font-size: 3rem;
-  margin-bottom: 3rem;
-  padding-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+/* Hero Background Img */
+main {
+  min-height: 100vh;
+}
+.custom-shape-divider-bottom-1654881642 {
+  position: relative;
+  height:fit-content;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-image: linear-gradient(100deg, rgba(0,0,0,0.9), rgba(0,0,0,0.15)), url("/template/imgs/herocopy.jpg"); 
+}
+
+.custom-shape-divider-bottom-1654881642 svg {
+  position: relative;
+  display: block;
+  width: calc(128% + 1.3px);
+  height: 90px;
+}
+
+.custom-shape-divider-bottom-1654881642 .shape-fill {
+  fill: #FFFFFF;
 }
 
 /* Second Content Section */
