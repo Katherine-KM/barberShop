@@ -127,7 +127,7 @@ header {
 
 /* Hero Background Img */
 .hero-img{
-  background-image: linear-gradient(100deg, rgba(0,0,0,0.9), rgba(0,0,0,0.15)), url("/imgs/herocopy.jpg"); 
+  background-image: linear-gradient(100deg, rgba(0,0,0,0.9), rgba(0,0,0,0.15)), url("/template/imgs/herocopy.jpg"); 
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center center;
@@ -450,9 +450,6 @@ text-align: center;
   cursor: pointer; 
 }
 
-.imgs:hover {
-
-}
 
 #lightbox {
   position: fixed; 
