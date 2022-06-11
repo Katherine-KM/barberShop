@@ -51,10 +51,8 @@ body {
 
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background-color: rgba(12, 12, 12, 0.8);
-  color:white;
   width: 100%; 
   padding: 1rem 15%; 
   position: fixed; 
@@ -64,10 +62,6 @@ header {
 
 .nav-list{
   max-width: 1200px;
-  position: absolute;
-  left: 70rem; 
-  right: 0;
-  top: 2.5rem; 
   padding: 1rem 0; 
 }
 
@@ -77,20 +71,17 @@ header {
   margin-right: 2rem; 
 }
 
-.nav-item a {
+a {
   text-decoration: none;
   color:white;
 }
 
-.nav-item a:hover{
+a:hover{
   color: orange;
 }
 
 /* ALL BTN RELATED THINGS */ 
 
-.nav-btn {
-  
-}
 
 .btn {
   display: inline-block;
@@ -763,17 +754,29 @@ footer {
   header {
     justify-content: space-between;
   }
-
-  .ham-menu {
-    position: absolute;
-    right: 4rem; 
+  .ham-menu{
+    display: inline-block;
+    cursor: pointer;
   }
-
-  .b{
+  
+  .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: white;
+    background-color: #333;
     margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
   }
   
   .nav-btn {

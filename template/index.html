@@ -17,16 +17,17 @@
 		
 	</head>
 	<body>
+		<section class="header2">
 	<header>
 		<div class="logo-div">
 			<img class="logo" src="/template/imgs/logo.png" alt="Barber Shop Logo">
 		</div>
 
-		<div class="ham-menu">
-			<div class="b"></div>
-			<div class="b"></div>
-			<div class="b"></div>
-		</div>
+		<div class="ham-menu" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		  </div>
 			<navbar> 
 				<ul class="nav-list"> 
 					<li class="nav-item"><a href="#hero-content">Home</a></li>
@@ -34,10 +35,12 @@
 					<li class="nav-item"><a href="#services">Services</a></li>
 					<li class="nav-item"><a href="#section6">Portfolio</a></li>
 					<li class="nav-item"><a href="#form-container">Contact</a></li>
+					<li class="nav-item"><a class="btn main-btn nav-btn" href="https://fadeo039clock.setmore.com"> Make Appointment </a></li>
 				</ul>
 			</navbar>
-			<a class="btn main-btn nav-btn" href="https://fadeo039clock.setmore.com"> Make Appointment </a>
+	
 		</header>
+		</section>
 		<main>
 		<div class="custom-shape-divider-bottom-1654881642">
 		<div class="container1">
@@ -241,5 +244,10 @@
 	</footer>
 	
 		<script type="text/javascript" src="js/main.js"></script>
+		<script>
+			function myFunction(x) {
+			  x.classList.toggle("change");
+			}
+			</script>
 	</body>
 </html>
